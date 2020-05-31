@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Text editor</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="fw02.css">
@@ -16,10 +16,10 @@
   <header class="d-flex justify-content-center align-items-center">
 
     <!-- ____________________________ main toolbar start -->
-    <div class="btn-toolbar main-bar" role="toolbar" aria-label="Main toolbar">
-      
+    <article class="btn-toolbar main-bar" role="toolbar" aria-label="Main toolbar">
+
       <!-- edit button start -->
-      <div class="btn-group mr-3" role="group" aria-label="First group">
+      <section class="btn-group mr-3" role="group" aria-label="First group">
         <button type="button" class="btn btn-secondary edit-btn" disabled>
           <svg class="bi bi-code-slash" width="23px" height="23px" viewBox="0 0 16 16" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -28,12 +28,12 @@
               clip-rule="evenodd" />
           </svg>
         </button>
-      </div>
+      </section>
       <!-- edit button end -->
 
 
       <!-- font styles buttons start -->
-      <div class="btn-group mr-3" role="group" aria-label="Second group">
+      <section class="btn-group mr-3" role="group" aria-label="Second group">
         <!-- bold style  -->
         <button type="button" class="btn btn-secondary bold">
           <svg class="bi bi-type-bold" width="23px" height="23px" viewBox="0 0 16 16" fill="currentColor"
@@ -71,12 +71,12 @@
             <path fill-rule="evenodd" d="M15 8.5H1v-1h14v1z" clip-rule="evenodd" />
           </svg>
         </button>
-      </div>
+      </section>
       <!-- font styles buttons end -->
 
 
       <!-- text align buttons start -->
-      <div class="btn-group mr-3" role="group" aria-label="Third group">
+      <section class="btn-group mr-3" role="group" aria-label="Third group">
         <!-- text align left -->
         <button type="button" class="btn btn-secondary leftTA">
           <svg class="bi bi-text-left" width="23px" height="23px" viewBox="0 0 16 16" fill="currentColor"
@@ -106,12 +106,12 @@
               clip-rule="evenodd" />
           </svg>
         </button>
-      </div>
+      </section>
       <!-- text align buttons end -->
 
 
       <!-- font family, size, color, background buttons start -->
-      <div class="btn-group mr-3" role="group" aria-label="Forth group">
+      <section class="btn-group mr-3" role="group" aria-label="Forth group">
         <!-- font family button start -->
         <div class="btn-group" role="group">
           <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle font" data-toggle="dropdown"
@@ -245,12 +245,12 @@
         </button>
         <!-- background button end -->
 
-      </div>
+      </section>
       <!-- font family, size, color, background buttons end -->
 
 
       <!-- sign in, sign out button start -->
-      <div class="btn-group btn-group1" role="group" aria-label="Fifth group">
+      <section class="btn-group btn-group1" role="group" aria-label="Fifth group">
         <button type="button" class="btn btn-secondary sign-in-btn" data-toggle="modal" data-target="#modal-3">
           <svg class="bi bi-lock-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -303,7 +303,8 @@
               <div class="modal-body">
                 <div class="row">
                   <div class="col-md-6 d-flex mb-0">
-                    <button type="button" class="btn btn-dark w-100 cancel-sign-out" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-dark w-100 cancel-sign-out"
+                      data-dismiss="modal">Cancel</button>
                   </div>
                   <div class="col-md-6 d-flex mb-0">
                     <button type="button" class="btn btn-warning w-100 sign-out" data-dismiss="modal">Sign out</button>
@@ -314,16 +315,16 @@
           </div>
         </div>
 
-      </div>
+      </section>
       <!-- sign in, sign out button end -->
 
-    </div>
+    </article>
     <!-- ____________________________ main toolbar end -->
 
 
     <!-- ____________________________ admin toolbar start -->
-    <div class="btn-toolbar admin-bar hidden" role="toolbar" aria-label="Admin toolbar">
-      <div class="btn-group" role="group" aria-label="First group">
+    <article class="btn-toolbar admin-bar hidden" role="toolbar" aria-label="Admin toolbar">
+      <section class="btn-group" role="group" aria-label="First group">
         <!-- save button  start-->
         <button type="button" class="btn btn-secondary save-btn">
           <svg class="bi bi-pencil-square" width="23px" height="23px" viewBox="0 0 16 16" fill="currentColor"
@@ -553,8 +554,8 @@
         </button>
         <!-- ul-list create end-->
 
-      </div>
-    </div>
+      </section>
+    </article>
     <!-- ____________________________ admin toolbar end -->
 
   </header>
@@ -562,7 +563,7 @@
 
   <!-- text-to-edit and text-to-show areas start -->
   <div class="container-fluid">
-    <div class="show-text">
+    <article class="show-text">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius distinctio consequuntur, totam laborum
         quod.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius distinctio consequuntur, totam laborum
@@ -573,13 +574,13 @@
         quod.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius distinctio consequuntur, totam laborum
         quod.</p>
-    </div>
+    </article>
     <textarea class="edit-text hidden"></textarea>
   </div>
   <!-- text-to-edit and text-to-show areas end -->
 
 
-  
+
 
 
 

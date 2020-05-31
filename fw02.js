@@ -1,6 +1,5 @@
-'use strict';
-
 $(function () {
+    'use strict';
 
     // <!-- ____________________________ main toolbar functions start -->
 
@@ -76,7 +75,7 @@ $(function () {
 
     // font color and background buttons style & function start 
     let colors = ['#0AA999', '#0A8F83', '#1FB66C', '#1B9B5E', '#2891DD', '#207AB9', '#9B64B7', '#9051AD', '#314860', '#283D4F', '#F5BD06', '#F89B0A', '#ED821B', '#DB5C00', '#F25A39', '#C84525', '#EAEEF0', '#BBC1C4', '#90A2A2', '#7C8A8B', '#000000'];
-    let images = ['url("0.jpg")', 'url("1.jpg")', 'url("2.jpg")', 'url("3.jpg")', 'url("4.jpg")', 'url("5.jpg")', 'url("6.jpg")', 'url("7.jpg")', 'url("8.jpg")'];
+    let images = ['url("images/0.jpg")', 'url("images/1.jpg")', 'url("images/2.jpg")', 'url("images/3.jpg")', 'url("images/4.jpg")', 'url("images/5.jpg")', 'url("images/6.jpg")', 'url("images/7.jpg")', 'url("images/8.jpg")'];
 
     // font color modal style & function
     $('.modal-1-body>.text-color').each(function (ind, elem) {
